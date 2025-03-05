@@ -189,6 +189,15 @@ Ubuntu 上的安装步骤
 
 `bash <(curl https://raw.githubusercontent.com/hiddify/Hiddify-Manager/main/common/download.sh) "v10.80.11"`
 
+菜单选择版本命令：
+`bash <(curl https://i.hiddify.com/custom)`
+
+或者
+`bash <(curl https://raw.githubusercontent.com/hiddify/Hiddify-Manager/main/common/download.sh) "custom"`
+
+安装成功后命令：
+`hiddify`
+
 恭喜，安装已完成。
 
 
