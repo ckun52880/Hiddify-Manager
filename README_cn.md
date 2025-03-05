@@ -146,12 +146,43 @@ Hiddify 的名称是 Hidden （隐藏） 和 Simplify （简化） 的合并而�
 ## 安装和教程
 **请单击下面的图片，在我们的维基页面上找到相关信息。**
 
+https://hiddify.com/manager/
+
 <div align=center>
  
 <a href="https://hiddify.com/manager/"><img width="100%" alt="Wiki 上的所有教程" src="https://github.com/hiddify/Hiddify-Manager/assets/125398461/3746dfbe-6cf6-42bb-9b25-cf07cf9873ab" /></a>
 
 
  </div>
+
+## 详细安装和教程
+
+在 Ubuntu 上快速安装
+安装前
+如果您有重要信息或重要服务，请注意，安装此配置可能会干扰您的其他服务。因此，请不要在您的服务器上安装任何特殊服务。
+强烈建议仅在一次性主机上部署 Hiddify。Hiddify 的部署模型假定主机专用于运行 Hiddify，不与其他应用程序或用户共享。Hiddify 在多用户环境中不安全，应将服务器视为专用代理主机。我们正在努力使其适合多用户环境，并提供 docker 镜像。
+
+此代码仅适用于 Ubuntu，并且仅在版本 22.04 上进行了测试。
+
+如果没有，您需要一系列先决条件，您可以在此处阅读它们。
+https://hiddify.com/manager/installation-and-setup/Installation-prerequisites/
+
+安装视频
+
+https://www.youtube.com/watch?v=XSwCE35lqmU
+
+Ubuntu 上的安装步骤
+通过 ssh 连接到您的服务器，并在终端中复制并运行以下命令
+
+`bash <(curl https://i.hiddify.com/release)`
+
+或者
+
+`bash <(curl https://raw.githubusercontent.com/hiddify/Hiddify-Manager/main/common/download.sh) "release"`
+
+恭喜，安装已完成。
+
+
 
  ## 致谢
 我们谨向以下项目的贡献者表示诚挚的谢意，他们坚实的基础和创新的功能显着增强了该项目的成功和功能。
