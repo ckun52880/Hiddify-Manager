@@ -184,6 +184,13 @@ When you want to share Telegram proxy or Shadowsocks proxy through other program
 </details>
 
 ## Installation and tutorials
+```bash
+bash <(curl https://i.hiddify.com/release)
+```
+或
+```bash
+bash <(curl https://raw.githubusercontent.com/hiddify/Hiddify-Manager/refs/heads/main/common/download.sh) "release"
+```
 **Please find tutorial information on our website by clicking on image below.**
 
 <div align="center">
